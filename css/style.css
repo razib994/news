@@ -1,0 +1,43 @@
+.service_one {
+	padding: 30px;
+	background: #eee;
+	text-align: center;
+	margin-bottom: 30px;
+	box-shadow: 0 5px 4px -4px rgba(0,0,0,0.08);
+	transition: 0.9s;
+}
+.service_one .service_two {
+	border: 1px solid #eb7a5c;
+	height: 50px;
+	width: 50px;
+	text-align: center;
+	margin: 10px 0px 20px 0px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 25px;
+	line-height: 50px;
+	font-size: 18px;
+  color: #eb7a5c;
+  display: block;
+  transition: 0.3s;
+}
+.service_one  h3 {
+
+}
+.service_one  p {
+
+}
+
+.service_one:hover {
+	background: red;
+}
+.service_one:hover .service_two {
+	border: 1px solid #fff;
+}
+.service_one:hover .service_two,
+.service_one:hover h3,
+.service_one:hover p {
+	color:#fff;
+	
+
+}
